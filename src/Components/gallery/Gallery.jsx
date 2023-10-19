@@ -17,8 +17,6 @@ const Gallery = () => {
                 return <Card images = {value.img} title = {value.title}/>
                }) 
             }
-            
-
         </div>
 
     </section>

@@ -5,12 +5,12 @@ import Login from "./Components/Login/Login";
 import SignUp from "./Components/SignUp/SignUp";
 import { auth } from "./firebase";
 // import Navbar from "./Components/commen/Navbar/Navbar";
-import Navbar from "./commen/Navbar/Navbar"
+// import Navbar from "./commen/Navbar/Navbar"
 import Home from "./Components/pages/Home";
 import About from "./Components/About/About";
 import Gallery from "./Components/gallery/Gallery";
-// import FristPage from "./Components/Fp/FristPage";
-// import FristPage from './Components/Fp/FristPage';
+import Destinations from "./Components/Destinations/Home";
+import SinglePage from "./SinglePage/SinglePage";
 
 function App() {
   const [userName, setUserName] = useState("");
@@ -35,6 +35,8 @@ function App() {
           <Route path="/" element={<Home name={userName} />} />
           <Route path="/about" element={<About name={userName} />} />
           <Route path="/gallery" element={<Gallery name={userName} />} />
+          <Route path="/destinations" element={<Destinations name={userName} />} />
+          <Route path="/singlepage/:id" element={<SinglePage name={userName} />} />
         </Routes>
       </Router>
     </div>

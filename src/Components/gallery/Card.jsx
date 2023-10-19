@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 const Card = (props) => {
     const [popup,setPopup] = useState(false);
-    const ToggleModel = () =>{
+    const toggleModel = () =>{
         setPopup(!popup)
     }
   return (
@@ -10,7 +10,7 @@ const Card = (props) => {
       <div className='items'>
         <div className='img'>
             <img src={props.images} alt="" />
-            <i className='fas fa-image' onClick={ToggleModel}></i>
+            <i className='fas fa-image' onClick={toggleModel}></i>
         </div>
         <div className='title'>
             <h3>{props.title}</h3>
@@ -22,7 +22,7 @@ const Card = (props) => {
         <div className='popup'>
             <div className='hide'></div>
             <div className='popup-content'>
-                <button onClick={ToggleModel}>Close</button>
+                <button onClick={toggleModel}>Close</button>
                 <img src={props.images} alt="" />
             </div>
         </div>
