@@ -3,13 +3,15 @@ import Hero from '../HomeSection/Hero'
 import Navbar from '../../commen/Navbar/Navbar'
 import HomeAbout from '../HomeSection/HomeAbout'
 import DestinationHome from '../HomeSection/Destina/DestinationHome'
+import MostPopular from '../../Components/HomeSection/Popular/MostPopular'
 
 const Home = () => {
   return (
     <>
       <Navbar/>
       <Hero/>
-      <HomeAbout/> 
+      <HomeAbout/>
+      <MostPopular/> 
       <DestinationHome/>
     </>
   )

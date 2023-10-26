@@ -24,19 +24,42 @@ const SinglePage = () => {
       <Navbar />
       <HeadTitle />
       {item ? (
-
-
       <section className="single-page top">
         <div className="container">
-          <Link to="/destination" className="primary-btn back">
-            <i className="fas fa-long-arrow-alt-letf">Go Back</i>
+          <Link to="/destinations" className="primary-btn back">
+            <i className="fas fa-long-arrow-alt-left">Go Back</i>
           </Link>
+
           <article className="content flex">
             <div className="main-content">
-                <img src={Allitem.image} alt="" />
+                <img src={item.image} alt="" />
+                <p>{item.desc}</p>
+                <p>{item.desc}</p>
 
+                <div className="para flex_space">
+                  <p>{item.sidepara}</p>
+                  <p>{item.sidepara}</p>
+                </div>
+                <h1>What is the {item.title} City ? </h1>
+                <p>{item.desc}</p>
+
+                <div className="image grid1">
+                  <img src={item.paraImage_one} alt="" />
+                  <img src={item.paraImage_two} alt="" />
+                </div>
             </div>
-
+            <div className="side-content">
+              <div className="box">
+                <h2>How can we help you ?</h2>
+                  <p>{item.sidepara}</p>
+                  <button className="outline-btn">
+                    <i className="fa fa-phone-alt"></i>Contact Us
+                  </button>
+              </div>
+                <div className="box2">
+                <p>{item.sidepara}</p>
+                </div>
+            </div>
           </article>
         </div>
       </section>

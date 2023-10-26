@@ -1,6 +1,6 @@
 import React from 'react'
 import Allitem from '../../Destinations/Allitem'
-// import "../../Destinations/Allitem"
+import "../Popular/MostPopular.css"
 
 const DestinationHome = () => {
   return (

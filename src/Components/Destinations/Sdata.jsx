@@ -4,7 +4,7 @@ const Sdata = [
         title : "Oriando",
         image : "images/dest-1.jpg",
         desc : "The official nickname of the city of Orlando is “The City Beautiful.” It is also known as “O-Town.” The Orlando Magic NBA team was almost known as the Orlando Juice. A contest was held in 1987 to pick the name of the team. The finalists were the “Heat”, the “Tropics,” the “Juice,” and the “Magic.”",
-        slidepara : "The official nickname of the city of Orlando is “The City Beautiful.” It is also known as “O-Town.” The Orlando Magic NBA team was almost known as the Orlando Juice. A contest was held in 1987 to pick the name of the team. The finalists were the “Heat”, the “Tropics,” the “Juice,” and the “Magic.”",
+        sidepara : "The official nickname of the city of Orlando is “The City Beautiful.” It is also known as “O-Town.” The Orlando Magic NBA team was almost known as the Orlando Juice. A contest was held in 1987 to pick the name of the team. The finalists were the “Heat”, the “Tropics,” the “Juice,” and the “Magic.”",
         paraImage_one : "/images/singlepage/single-1.jpg",
         paraImage_two : "/images/singlepage/single-2.jpg",
     },
@@ -14,7 +14,7 @@ const Sdata = [
         title : "Miami",
         image : "images/dest-2.jpg",
         desc : "Miami is sometimes colloquially referred to as The 305, Magic City, Gateway to the Americas, Gateway to Latin America, Capital of Latin America, and Vice City.",
-        slidepara : "Miami is sometimes colloquially referred to as The 305, Magic City, Gateway to the Americas, Gateway to Latin America, Capital of Latin America, and Vice City.",
+        sidepara : "Miami is sometimes colloquially referred to as The 305, Magic City, Gateway to the Americas, Gateway to Latin America, Capital of Latin America, and Vice City.",
     },
 
     {
@@ -22,7 +22,7 @@ const Sdata = [
         title : "Los Angeles",
         image : "images/dest-3.jpg",
         desc : "Los Angeles, or LA, is one of the most well-known cities in the world. But why is Los Angeles so famous? Hollywood stars, the TV & movie industries, and gorgeous beaches all make LA a famous city and a popular vacation spot.",
-        slidepara : "Los Angeles, or LA, is one of the most well-known cities in the world. But why is Los Angeles so famous? Hollywood stars, the TV & movie industries, and gorgeous beaches all make LA a famous city and a popular vacation spot.",
+        sidepara : "Los Angeles, or LA, is one of the most well-known cities in the world. But why is Los Angeles so famous? Hollywood stars, the TV & movie industries, and gorgeous beaches all make LA a famous city and a popular vacation spot.",
     },
 
     {
@@ -30,7 +30,7 @@ const Sdata = [
         title : "San Diego",
         image : "images/dest-4.jpg",
         desc : "San Diego is a city in southern California with gorgeous weather and stunning beaches. However, San Diego is known for the San Diego Zoo, San Diego Padres, and more recently, its craft beer industry, also make this a famous city worth visiting.",
-        slidepara : "San Diego is a city in southern California with gorgeous weather and stunning beaches. However, San Diego is known for the San Diego Zoo, San Diego Padres, and more recently, its craft beer industry, also make this a famous city worth visiting.",
+        sidepara : "San Diego is a city in southern California with gorgeous weather and stunning beaches. However, San Diego is known for the San Diego Zoo, San Diego Padres, and more recently, its craft beer industry, also make this a famous city worth visiting.",
     },
 
     {
