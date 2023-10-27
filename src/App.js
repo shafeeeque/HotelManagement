@@ -11,6 +11,10 @@ import About from "./Components/About/About";
 import Gallery from "./Components/gallery/Gallery";
 import Destinations from "./Components/Destinations/Home";
 import SinglePage from "./SinglePage/SinglePage";
+import Blog from "./Components/Blog/Blog";
+import BlogSingle from "./Components/Blog/blog-single-page/BlogSingle";
+import Testimonial from "./Components/Testimonial/Testimonial";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   const [userName, setUserName] = useState("");
@@ -37,6 +41,11 @@ function App() {
           <Route path="/gallery" element={<Gallery name={userName} />} />
           <Route path="/destinations" element={<Destinations name={userName} />} />
           <Route path="/singlepage/:id" element={<SinglePage name={userName} />} />
+          <Route path="/blog" element={<Blog name={userName} />} />
+          <Route path="/blogsingle/:id" element={<BlogSingle name={userName} />} />
+          <Route path="/testimonal" element={<Testimonial name={userName} />} />
+          <Route path="/contact" element={<Contact name={userName} />} />
+         
         </Routes>
       </Router>
     </div>

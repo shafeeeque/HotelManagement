@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "../commen/Navbar/Navbar";
+import Navbar from "../../src/commen/Navbar/Navbar";
 import "./SinglePage.css";
 import HeadTitle from "../commen/HeadTitle/HeadTitle";
 import { Link, useParams } from "react-router-dom";
-import Allitem from "../Components/Destinations/Allitem";
 import Sdata from "../Components/Destinations/Sdata";
 import EmptyFile from "../commen/EmptyFile/EmptyFile";
 

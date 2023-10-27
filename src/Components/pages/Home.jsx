@@ -4,6 +4,9 @@ import Navbar from '../../commen/Navbar/Navbar'
 import HomeAbout from '../HomeSection/HomeAbout'
 import DestinationHome from '../HomeSection/Destina/DestinationHome'
 import MostPopular from '../../Components/HomeSection/Popular/MostPopular'
+import Work from '../HomeSection/Work/Work'
+import Gallery from '../HomeSection/gallery/Gallery'
+
 
 const Home = () => {
   return (
@@ -13,6 +16,8 @@ const Home = () => {
       <HomeAbout/>
       <MostPopular/> 
       <DestinationHome/>
+      <Work/>
+      <Gallery/>
     </>
   )
 }
