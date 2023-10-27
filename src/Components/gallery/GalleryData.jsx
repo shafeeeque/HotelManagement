@@ -1,27 +1,27 @@
 const GalleryData = [
     {
         img: "images/gallery-1.jpg",
-        title: "Gallery One",
+        title: "Rome",
     },
     {
         img: "images/gallery-2.jpg",
-        title: "Gallery Two",
+        title: "Spain",
     },
     {
         img: "images/gallery-3.jpg",
-        title: "Gallery Three",
+        title: "England",
     },
     {
         img: "images/gallery-4.jpg",
-        title: "Gallery Four",
+        title: "USA",
     },
     {
         img: "images/gallery-5.jpg",
-        title: "Gallery Five",
+        title: "Sevilla",
     },
     {
         img: "images/gallery-6.jpg",
-        title: "Gallery Six",
+        title: "France",
     }
     
 ] 

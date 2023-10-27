@@ -8,21 +8,21 @@ const Navbar = () => {
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
+
   return (
     <div>
       <nav className="navbar">
-        <div className={click ? "nav-menu active" : "nav-menu"}>
-          <div className="container flex_space">
-            <div className="menu-icon" onClick={handleClick}>
-              <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-            </div>
+        <div className="container flex_space">
+          <div className="menu-icon" onClick={handleClick}>
+            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+          </div>
 
-            <ul className="nav-menu active">
-              <li>
-                <Link to="/" onClick={closeMobileMenu}>
-                  Home
-                </Link>
-              </li>
+          <ul className={`nav-menu ${click ? 'active' : ''}`}>
+            <li>
+              <Link to="/" onClick={closeMobileMenu}>
+                Home
+              </Link>
+            </li>
               <li>
                 <Link to="/about" onClick={closeMobileMenu}>
                   About
@@ -61,14 +61,13 @@ const Navbar = () => {
                 </Link>
               </li>
 
-              <li>
+              {/* <li>
                 <Link to="/Login">
                   <i className="far fa-chevron-right">Log In</i>
                 </Link>
-              </li>
+              </li> */}
             </div>
           </div>
-        </div>
       </nav>
       <header>
         <div className="container felx_space">
