@@ -9,7 +9,6 @@ const Contact = () => {
     <Navbar/>
     <HeadTitle/>
     <ContactForm/>
-        <h1>Contact</h1>
     </>
   )
 }

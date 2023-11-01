@@ -7,7 +7,7 @@ const Allitem = () => {
   return (
     <>
         <section className='gallery desi mtop'>
-            <div className='container'>
+            <div className='containerr'>
                 <div className='content grid'>
                     {items.map((item)=>{
                         return <Dcard key = {item.id} item={item}/>

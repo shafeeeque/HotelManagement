@@ -11,7 +11,7 @@ const Gallery = () => {
     <Navbar/>
     <HeadTitle/>
     <section className='gallery top'>
-        <div className='container grid'>
+        <div className='containerr grid' >
             {
                GalleryData.map((value)=>{
                 return <Card images = {value.img} title = {value.title}/>
